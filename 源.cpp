@@ -292,7 +292,7 @@ void enemymove() 					   	         //敌人运动
 		enemy[i].y += enemy[i].y1;
 		if (judgemeet()) break;
 	}
-	Sleep(180);
+	Sleep(300);
 }
 
 void Game_levels()                                  //游戏等级设定                   
